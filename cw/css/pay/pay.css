@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body,html{
+    height: 100%;
+}
+body{
+    background: #181a1b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 400px;
+    height: 500px;
+    background: #6b7099;
+}
+
+h1{
+    text-align: center;
+    margin: 30px;
+}
+
+img{
+    width: 250px;
+}
+.choose{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.choose a{
+    font-size: 50px;
+    margin: 25px 15px 20px 15px;
+}
+.pay{
+    display: flex;
+    justify-content: center;
+}
+.items{
+    display: none;
+}
+.items:target{
+    display: block;
+}
+
+p{
+    text-align: center;
+}
+
+a{
+    color: #222;
+}
+.choose a:first-child{
+    font-size: 55px;
+}
+
+.choose a:first-child:hover{
+    transition: all 0.3s;
+    color: #40ff40 !important;
+}
+.choose a:last-child:hover{
+    color: #0087c5 !important;
+    transition: all 0.3s;
+}
+.choose a:nth-child(2):hover{
+    color: #028dc8 !important;
+    transition: all 0.3s;
+}
+
+h2{
+    position: absolute;
+    top: 40px;
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+h3{
+    
+    text-align: center;
+    position: absolute;
+    top: 5px;
+}
+h3 a{
+    color: red;
+}
